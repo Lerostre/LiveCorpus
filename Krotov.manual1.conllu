@@ -3,7 +3,7 @@
 # udpipe_model_licence = CC BY-NC-SA
 1	в	в	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#9.9#9.957
 2	эфире	эфир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#9.957#10.373
-3	Радио	Радио	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#10.373#10.713
+3	Радио	радио	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#10.373#10.713
 4	Свобода	Свобода	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#10.713#11.182
 5	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#11.182#11.349
 6	у	у	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#11.349#11.419
@@ -113,7 +113,7 @@
 110	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#49.249#49.286
 111	эээ	эээ	X	_	_	_	_	_	words@jgk1957m#@jgk1957m#49.286#49.37
 112	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#49.37#49.377
-113	выступаете	выступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@jgk1957m#@jgk1957m#49.377#50.073
+113	выступаете	выступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@jgk1957m#@jgk1957m#49.377#50.073
 114	на	на	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#50.073#50.212
 115	радио	радио	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#50.212#50.472
 116	и	и	CCONJ	_	_	_	_	_	words@jgk1957m#@jgk1957m#50.472#50.494
@@ -476,7 +476,7 @@
 473	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#246.032#246.076
 474	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#246.076#246.12
 475	Вы	вы	PRON	_	Case=Nom|Number=Sing|Person=2	_	_	_	words@jgk1957m#@jgk1957m#284.847#284.977
-476	боитесь	бояться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	_	_	_	words@jgk1957m#@jgk1957m#284.977#285.412
+476	боитесь	бояться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	_	_	_	words@jgk1957m#@jgk1957m#284.977#285.412
 477	крепостничества	крепостничество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#285.412#286.264
 478	?	?	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#286.264#286.396
 479	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#286.396#286.572
@@ -486,7 +486,7 @@
 483	Вы	вы	PRON	_	Case=Nom|Number=Sing|Person=2	_	_	_	words@jgk1957m#@jgk1957m#287.465#287.603
 484	хозяин	хозяин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#287.603#287.949
 485	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#287.949#287.961
-486	спрашивайте	спрашивать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	_	_	_	words@jgk1957m#@jgk1957m#287.961#288.606
+486	спрашивайте	спрашивать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	_	_	_	words@jgk1957m#@jgk1957m#287.961#288.606
 487	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#288.606#288.621
 488	да	да	PART	_	_	_	_	_	words@jgk1957m#@jgk1957m#288.621#288.816
 489	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#288.816#288.829
@@ -500,7 +500,7 @@
 497	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#347.031#347.389
 498	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#347.389#347.809
 499	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#347.809#347.84
-500	облачка	облачка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	_	_	_	words@jgk1957m#@jgk1957m#347.84#348.805
+500	облачка	облачко	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	_	_	_	words@jgk1957m#@jgk1957m#347.84#348.805
 501	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#348.805#348.838
 502	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#348.838#348.861
 503	у	у	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#349.366#349.519
@@ -556,7 +556,7 @@
 553	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#75.598#75.886
 554	но	но	CCONJ	_	_	_	_	_	words@enp1983m#@enp1983m#75.886#76.384
 555	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#76.384#76.393
-556	видите	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#76.393#76.806
+556	видите	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#76.393#76.806
 557	ли	ли	PART	_	_	_	_	_	words@enp1983m#@enp1983m#76.806#76.893
 558	как	как	SCONJ	_	_	_	_	_	words@enp1983m#@enp1983m#76.893#77.356
 559	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#77.356#77.793
@@ -645,7 +645,7 @@
 642	нет	нет	PART	_	_	_	_	_	words@enp1983m#@enp1983m#106.823#107.025
 643	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#107.025#107.034
 644	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	words@enp1983m#@enp1983m#107.034#107.22
-645	антиклерикал	антиклерикать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#107.22#108.073
+645	антиклерикал	антиклерикал	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@enp1983m#@enp1983m#107.22#108.073
 646	сто	сто	NUM	_	Case=Acc	_	_	_	words@enp1983m#@enp1983m#108.073#108.326
 647	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	_	_	_	words@enp1983m#@enp1983m#108.326#109.052
 648	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#109.052#109.066
@@ -711,7 +711,7 @@
 708	?	?	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#173.096#173.184
 709	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#173.184#173.312
 710	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#173.312#173.524
-711	понимаете	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#173.524#174.167
+711	понимаете	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#173.524#174.167
 712	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#174.167#174.188
 713	но	но	CCONJ	_	_	_	_	_	words@enp1983m#@enp1983m#174.188#174.433
 714	м...	м...	X	_	_	_	_	_	words@enp1983m#@enp1983m#174.433#174.539
@@ -883,7 +883,7 @@
 880	духовностью	духовность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	_	_	_	words@enp1983m#@enp1983m#233.599#234.524
 881	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#234.524#234.547
 882	Вы	вы	PRON	_	Case=Nom|Number=Sing|Person=2	_	_	_	words@enp1983m#@enp1983m#234.547#234.66
-883	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#234.66#235.037
+883	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#234.66#235.037
 884	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#235.037#235.055
 885	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	words@enp1983m#@enp1983m#235.055#235.353
 886	духовность	духовность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	_	_	_	words@enp1983m#@enp1983m#235.353#235.932
@@ -905,7 +905,7 @@
 902	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#240.166#240.18
 903	эээ	эээ	X	_	_	_	_	_	words@enp1983m#@enp1983m#240.18#240.412
 904	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#240.412#240.433
-905	видите	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#240.433#240.647
+905	видите	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#240.433#240.647
 906	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#240.647#240.665
 907	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	words@enp1983m#@enp1983m#240.665#240.768
 908	духовностью	духовность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	_	_	_	words@enp1983m#@enp1983m#240.768#241.376
@@ -994,7 +994,7 @@
 991	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#261.437#261.57
 992	эээ	эээ	X	_	_	_	_	_	words@enp1983m#@enp1983m#261.57#262.785
 993	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#262.785#262.811
-994	понимаете	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#262.811#263.28
+994	понимаете	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#262.811#263.28
 995	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#263.28#263.306
 996	русская	русский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	words@enp1983m#@enp1983m#263.306#263.66
 997	духовность	духовность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	_	_	_	words@enp1983m#@enp1983m#263.66#264.381
@@ -1179,7 +1179,7 @@
 1176	не	не	PART	_	_	_	_	_	words@enp1983m#@enp1983m#316.698#316.948
 1177	скажу	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#316.948#317.213
 1178	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#317.213#317.235
-1179	каких	какой	DET	_	Case=Gen|Number=Plur	_	_	_	words@enp1983m#@enp1983m#317.235#317.632
+1179	каких	какой	DET	_	Case=Loc|Number=Plur	_	_	_	words@enp1983m#@enp1983m#317.235#317.632
 1180	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#317.632#317.806
 1181	эээ	эээ	X	_	_	_	_	_	words@enp1983m#@enp1983m#317.806#318.415
 1182	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#318.415#318.432
@@ -1220,14 +1220,14 @@
 1217	Вы	вы	PRON	_	Case=Nom|Number=Sing|Person=2	_	_	_	words@enp1983m#@enp1983m#326.514#326.58
 1218	же	же	PART	_	_	_	_	_	words@enp1983m#@enp1983m#326.58#326.693
 1219	всё	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	_	_	_	words@enp1983m#@enp1983m#326.693#326.91
-1220	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#326.91#327.249
+1220	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#326.91#327.249
 1221	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#327.249#327.259
 1222	вот	вот	PART	_	_	_	_	_	words@enp1983m#@enp1983m#327.259#327.368
 1223	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#327.368#327.377
 1224	Яков	Яков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@enp1983m#@enp1983m#327.377#327.693
 1225	Гаврилович	Гаврилович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@enp1983m#@enp1983m#327.693#328.056
 1226	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#328.056#328.07
-1227	скажите	сказать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#328.07#328.488
+1227	скажите	сказать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#328.07#328.488
 1228	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#328.488#328.585
 1229	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#328.585#328.787
 1230	ну	ну	PART	_	_	_	_	_	words@enp1983m#@enp1983m#328.787#328.861
@@ -1294,13 +1294,13 @@
 1291	вот	вот	PART	_	_	_	_	_	words@enp1983m#@enp1983m#344.754#345.087
 1292	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#345.087#345.121
 1293	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#345.121#345.142
-1294	облачка	облачка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	_	_	_	words@enp1983m#@enp1983m#349.016#349.732
+1294	облачка	облачко	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	_	_	_	words@enp1983m#@enp1983m#349.016#349.732
 1295	?	?	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#349.732#349.761
 1296	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#349.761#349.801
 1297	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#349.801#349.834
 1298	ну	ну	PART	_	_	_	_	_	words@enp1983m#@enp1983m#355.486#355.742
 1299	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#355.742#355.759
-1300	слушайте	слушать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#355.759#356.076
+1300	слушайте	слушать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#355.759#356.076
 1301	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#356.076#356.094
 1302	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	words@enp1983m#@enp1983m#356.094#356.349
 1303	увесистое	увесистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	words@enp1983m#@enp1983m#356.349#357.073
@@ -1312,7 +1312,7 @@
 1309	тяжеловесное	тяжеловесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	words@enp1983m#@enp1983m#358.391#359.216
 1310	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1983m#@enp1983m#359.216#359.561
 1311	у	у	ADP	_	_	_	_	_	words@enp1983m#@enp1983m#359.561#359.646
-1312	Вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	_	_	_	words@enp1983m#@enp1983m#359.646#360.014
+1312	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	_	_	_	words@enp1983m#@enp1983m#359.646#360.014
 1313	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#360.014#360.033
 1314	эээ	эээ	X	_	_	_	_	_	words@enp1983m#@enp1983m#360.033#360.423
 1315	/	/	PUNCT	_	_	_	_	_	words@enp1983m#@enp1983m#360.423#360.446
