@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-11-30T23:06:24+03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-01T20:58:26+03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/ahaha/Downloads/krotov.wSQ0P.mp4" MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="../Downloads/krotov.wSQ0P.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:a4ed833f-a56f-41d4-911f-a3334280eac8</PROPERTY>
@@ -2444,7 +2444,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="Lerostre" LINGUISTIC_TYPE_REF="intonation" PARENT_REF="text@enp1982m" PARTICIPANT="@enp1983m" TIER_ID="intonation@enp1983m">
+    <TIER ANNOTATOR="Lerostre" LINGUISTIC_TYPE_REF="intonation" PARENT_REF="text@enp1982m" PARTICIPANT="@enp1982m" TIER_ID="intonation@enp1982m">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5119" ANNOTATION_REF="a5089">
                 <ANNOTATION_VALUE>  Нарратив</ANNOTATION_VALUE>
@@ -22356,21 +22356,6 @@
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="Gesture phases">
-        <DESCRIPTION LANG_REF="und">Gesture phases</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid_5227145c-4de3-4e2f-ba6b-94963e0f63dd">
-            <CVE_VALUE DESCRIPTION="preparation" LANG_REF="und">preparation</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid_1479688e-33e1-4abc-82f4-88dee8af9a43">
-            <CVE_VALUE DESCRIPTION="stroke" LANG_REF="und">stroke</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid_b838482f-9f1f-4002-bf13-86c45ae335f2">
-            <CVE_VALUE DESCRIPTION="hold" LANG_REF="und">hold</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid_242abfe3-fa1c-4e4c-8433-3155504f4ad5">
-            <CVE_VALUE DESCRIPTION="partial retraction" LANG_REF="und">part.retraction</CVE_VALUE>
-        </CV_ENTRY_ML>
-    </CONTROLLED_VOCABULARY>
     <CONTROLLED_VOCABULARY CV_ID="POS">
         <DESCRIPTION LANG_REF="und">Part of Speech</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid_93745bdf-07df-459f-9663-7ebe77f57513">
@@ -22411,6 +22396,21 @@
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid_a3a4b294-7398-4842-b358-dd3c980f868e">
             <CVE_VALUE DESCRIPTION="particle" LANG_REF="und">part</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Gesture phases">
+        <DESCRIPTION LANG_REF="und">Gesture phases</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_5227145c-4de3-4e2f-ba6b-94963e0f63dd">
+            <CVE_VALUE DESCRIPTION="preparation" LANG_REF="und">preparation</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_1479688e-33e1-4abc-82f4-88dee8af9a43">
+            <CVE_VALUE DESCRIPTION="stroke" LANG_REF="und">stroke</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b838482f-9f1f-4002-bf13-86c45ae335f2">
+            <CVE_VALUE DESCRIPTION="hold" LANG_REF="und">hold</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_242abfe3-fa1c-4e4c-8433-3155504f4ad5">
+            <CVE_VALUE DESCRIPTION="partial retraction" LANG_REF="und">part.retraction</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
 </ANNOTATION_DOCUMENT>
