@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Shiet">
+		<title>Личная страница Данила Иванова</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<header class="my_header">
+			<div class="title">
+				<h1>Welcome!</h1>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="#">ГЛАВНАЯ</a></li>
+					<li><a href="#info">ОБО МНЕ</a></li>
+				</ul>
+			</div>
+			<div class="logo"?>
+				<img src="logo.copy.png">
+			</div>
+		</header>
+
+		<div class ="info">
+			<a class="box">
+				<a class="button" href="#popup1">Пожалуйста, прочитайте личное обращение создателя этого сайта</a>
+			</div>
+			<div id="popup1" class="overlay">
+				<div class="popup">
+					<h2>Крик души</h2>
+					<a class="close" href="#">&times;</a>
+					<div class="content">
+						Как ни крути, а создавать сайт, даже если и не с нуля, не так уж и просто, особенно для того, кто почти этим не занимался.
+						Мне не хотелось просто сдать задание, я хотел сделать его так хорошо, как только мог: я подбирал цвета, фотошопил фоновые картинки, чтобы они подходили по гамме, делал шрифт для кириллицы, перебирал шаблоны и так далее, а на это ушло много времени, гораздо больше, чем я рассчитывал.
+						Я был лишён фидбека при сдаче большинстве задач курса просто потому, что сдал задачи не вовремя. Мне всё равно на то, что в итоге я остался без оценок, но мне просто по-человечески обидно, потому что выходит, что я потратил впустую десятки часов, даже не зная, правильно я что-то делаю или нет. Конечно, я многому научился, пока делал сайт, и многое для себя отметил, что, надеюсь, заметно по страничке группы, эта страница, как по мне, скорее не удалась, но с тем же успехом я мог бы изучать вёрстку и самостоятельно. Но тогда какой смысл в том, чтобы что-то делать, как-то стараться, чтобы потом в итоге не получить ничего, кроме стресса. Наверное, мне просто нужно было выговориться, что я, собственно, и сделал. Может, хоть сейчас я работал не зря.
+					</div>
+				</div>
+			</div>
+			<script>
+				function myFunction() {
+  					var popup = document.getElementById("myPopup");
+  					popup.classList.toggle("show");
+				}
+			</script>
+		</div>
+			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<header style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(wallhaven_1.jpg); padding-top:70px; background-size: cover; background-position: center; "> 
+			<div class="container" id="info"> 
+				<div class="me_title">
+					<h1>Обо мне</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-5">
+						<br/><br/>
+						<h1>Данил Иванов</h1>
+						<hr>
+						<p><i>Человек, который устал ошибаться</b></p> 
+	                </div>
+					<div class="col-md-4">
+        	            <img src="photo.jpg" alt="" style="height:320px; margin:20px 20px 40px 85px " >
+					</div>
+					<div class = "varlinks">
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2018/index.html">Страница курса</a> </li> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2018/baling_2018_1.html">Страница группы</a> </li> 
+					</div>
+	            </div>
+			</div>
+		</header>
+		<section id="portfolio">
+			<div class="container">
+				<div class="col-md-3">
+					<article style="color: pink;">
+						<h3 style="color: #ea82b9;">Место учебы</h3>
+						<p>Фундаментальная и компьютерная лингвистика, НИУ ВШЭ, Москва</p>
+					</article>
+					<article style="color: pink;">
+						<h3 style="color: #ea82b9;">Родной город</h3>
+						<li class = "ldn"><a href ="https://ru.wikipedia.org/wiki/Рубцовск">Рубцовск</a></li>
+					</article>
+					<article style="color: pink;">
+						<h3 style="color: #ea82b9">Контакты</h3>
+						<div class = "socnet" style="display:flex;">
+						<a href="https://vk.com/vband44"> <img src="vk.png" alt="" style="height:40px; margin:10px 20px 0px 0px;"></a>
+						<a href = "https://t.me/mdeil69"><img src="tel.png" alt="" style="height:40px; margin:10px 20px 0px 0px;"></a>
+						<a href="https://github.com/Lerostre"> <img src="git.svg" alt="" style="height:40px; margin:10px 20px 0px 0px;"></a>
+					</div>
+					</article>
+				</div>
+				<div class="col-md-4">
+					<article>
+						<h3 style="font-family:Lucida Console; color: #ea82b9">Что я люблю</h3>
+						<p style="color: pink">Мне очень нравится разбираться в сложных вещах, поэтому я люблю математику (матан особенно), мне нравится чувство хорошо сделанной работы, поэтому я люблю делать проекты, иногда просто для себя, будь то матричный калькулятор или этот сайт, мне нравится изучать другие культуры, поэтому я люблю иностранные языки и мне не нравится физика, поэтому я не люблю физику.</p> 
+					</article>
+				</div>
+			</div>
+		</section>
+		<footer class="bs-docs-footer"> 
+			<div class="container"> 
+				<li class="fin_link"><a href = "https://ling.hse.ru/">Школа лингвистики НИУ ВШЭ</a></li>
+				<p style="text-align:right; font-family: Century Gothic; color: #ea82b9; ">&copy; Иванов Д., 2020</p> 
+			</div>
+		</footer>
+	</body>
+</html>

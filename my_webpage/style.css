@@ -1,0 +1,358 @@
+style.css
+
+/*
+<div class="col-md-3">
+					<h3>Я в соцсетях</h3>
+					<ul>
+						<li>VK</li>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+					</ul>
+				</div>
+				*/
+
+
+
+.col-md-3{
+	position: absolute;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face{
+	font-family: Lumios Marker;
+	src: url("Lumios-Marker.ttf") format("truetype")
+}
+
+@font-face{
+	font-family: Century Gothic;
+	src: url("CenturyGothic.ttf") format("truetype")
+}
+
+body, html {
+  	height: 100%;
+ 	/*background-color: rgb(11, 19, 53)*/
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.my_header {										/* градиент вроде затемняет*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("my_background.jpg");			/* ссыль на пикчу */
+	height: 100vh;								/* размер пикчи */
+	background-size: cover;						/* */
+	background-position: center;				/* расположение пикчи */
+}
+
+ul{											/* */
+	list-style-type: none;						/* */
+	float: right;								/* теперь все данные справа */
+	position: fixed;
+	top: 7.5%;
+	right: 7.5%;							/* отступ сверху */
+	z-index: 999;
+	text-decoration:none;
+	height: 600px;
+} 
+
+
+ul li{											/* */
+	display: inline-block;						/* */
+	font-family: Century Gothic;
+}
+
+ul li a{										/* */
+	text-decoration: none;						/* */
+	color: pink;								/* цвет шрифта в клетке */
+	padding: 5px 20px;							/* размер кнопки */
+	border: 1px solid pink;						/* граница ячейки */
+	transition: .25s ease;						/* анимация ховера */
+	list-style-type: none;
+}
+
+ul li a:hover{									/* действия при наводке */
+	text-decoration:none;
+	background-color: #ea82b9;						/* довольно очевидно */
+	color: #000;
+	list-style-type: none;
+}
+
+ul li.active a{									/* меняет вид если нахо */
+	text-decoration:none;
+	background-color: #ea82b9;	
+	color: #000;								/* диться на странице */
+}
+
+.title{
+	color: #ea82b9;
+	position: absolute;
+	top: 5%;
+	left: 8.75%;
+	font-family: Lumios Marker;
+	font-size: 24px
+	z-index: 99;
+}
+
+.logo img{										/* */
+	position: absolute;
+	background-repeat: no-repeat;
+     background-size: cover;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 130%;
+	width: Auto;
+	z-index: 9;
+}
+
+.logo::after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #ea82b9;
+	position: absolute;
+	top: 80%;
+	left: 48.5%;
+}
+
+.main{											/* */
+	max-width: 1200px;	
+	max-height: 600px
+}
+
+.info{
+	padding: 80px 0;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background: linear-gradient(#0C1236, #1B0615);
+	background-size: cover;
+	background-position: center;	
+}
+
+.info:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #ea82b9;
+	position: absolute;
+	top: 137%;
+	left: 48.5%;
+}
+
+
+.box {;
+  	transition: .3s ease;
+	width: 800px;
+	height: 0px;
+	margin: 0 auto;
+	opacity: 1;
+  	display: block; 
+  	font-family: Century Gothic;
+  	font-size: 30px;
+  	text-decoration: none;
+  	background-clip: padding-box;
+  	text-align: center;
+  	position: relative;
+}
+
+.button {
+	text-align: center;
+	color: white;
+  color: #fff;
+  height: 35px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  font-family: Century Gothic;
+  top: -50%;
+  width: 50%;
+  position: relative;
+  padding-bottom: 200px;
+  font-size: 24px;
+}
+.box:hover {
+  opacity: 0.7;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.info_header{
+	color: #ea82b9;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.info_header:after{
+	left: 8.75%;
+	font-family: Brush Script MT;
+	font-size: 24px
+}
+
+.me_title{
+	max-width: 360px;
+	font-family: Lumios Marker;
+	color: #ea82b9;
+	font-size: 24px
+	color: #ea82b9;
+}
+
+.varlinks{
+	list-style-type: none;						/* */
+	float: right;								/* теперь все данные справа */
+	position: relative;
+	z-index: 999;
+	text-decoration:none;
+	padding:5px 5px;
+	margin-top: 65px;
+}
+
+.varlinks li{
+	display: block;						/* */
+	font-family: Century Gothic;
+	padding-top: 10px;
+}
+
+.varlinks li a{										/* */
+	text-decoration: none;						/* */
+	font-size:24px;
+	color: pink;								/* цвет шрифта в клетке */
+	border: 1px solid pink;						/* граница ячейки */
+	padding: 5px 20px;
+	transition: .25s ease;						/* анимация ховера */
+}
+
+li.grvar{
+	text-align: center;
+}
+
+.varlinks li a:hover{									/* действия при наводке */
+	text-decoration:none;
+	background-color: #ea82b9;						/* довольно очевидно */
+	color: #000;
+}
+
+.varlinks li.active a{									/* меняет вид если нахо */
+	text-decoration:none;
+	background-color: #ea82b9;	
+	color: #000;								/* диться на странице */
+}
+
+.col-md-4{
+	top:20%;
+}
+
+.col-md-5{
+	max-width: 360px;
+	color: #ea82b9;
+}
+
+.ldn a{
+	color: #ea82b9;
+	list-style-type: none;
+}
+
+.ldn a:hover{
+	text-decoration: none;
+	text-color: #000;
+	list-style-type: none;
+}
+
+.bs-docs-footer{
+	display: horizontal-block;
+	background-color: #1B0615;
+}
+
+.fin_link{
+	position: absolute;
+	color: #1B0615;
+}
+
+.fin_link a{
+	font-family: Century Gothic, regular;
+	text-decoration: none;
+	color: pink;
+}
+
+#portfolio{			/* ссыль на пикчу */							/* размер пикчи */
+	background: linear-gradient(#1B0615, #0C1236); 
+	background-size: cover;						/* */
+	background-position: center;				/* расположение пикчи */
+
+}
+
+.socnet a{
+	transition: .3s ease;
+}
+
+.socnet a:hover{
+	opacity: 0.7;
+}
