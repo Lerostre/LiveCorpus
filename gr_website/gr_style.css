@@ -1,8 +1,4 @@
-@font-face {
-  font-family: 'Lobster';
-  src: url("https://github.com/Lerostre/lingdata/blob/main/gr_website/lobster_%5Ballfont.net%5D.ttf");
-  src: url('https://github.com/Lerostre/lingdata/blob/main/gr_website/lobster_%5Ballfont.net%5D.ttf')  format('truetype');
-}
+
 
 @font-face {
   font-family: "Tisa Sans Pro"; 
