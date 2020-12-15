@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Lobster';
-  src: url("D:/lobster_[allfont.net].ttf");
-  src: url('lobster_[allfont.net].ttf')  format('truetype'),
+  src: url("lobster_[allfont.net].ttf");
+  src: url('https://github.com/Lerostre/lingdata/blob/main/gr_website/lobster_%5Ballfont.net%5D.ttf')  format('truetype');
 }
 
 @font-face {
-	font-family: "Tisa Sans Pro";
-	src: url("D:/TisaSansPro-ExtraLightItalic.woff")
-	src: url("TisaSansPro-ExtraLightItalic.woff") format("woff")
+  font-family: "Tisa Sans Pro"; 
+  src: url("D:/TisaSansPro-ExtraLightItalic.woff");
+  src: url("TisaSansPro-ExtraLightItalic.woff") format("woff");
 }
 
 *{
