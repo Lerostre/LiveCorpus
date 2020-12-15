@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'Lobster';
+  src: url("lobster_[allfont.net].ttf");
+  src: url('lobster_[allfont.net].ttf')  format('truetype');
 
 @font-face {
   font-family: "Tisa Sans Pro"; 
