@@ -13,7 +13,7 @@
 10	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#12.667#12.68
 11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#12.68#12.946
 12	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#12.946#13.443
-13	c	c	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#13.443#13.514
+13	с	с	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#13.443#13.514
 14	христианской	христианский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#13.514#14.18
 15	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#14.18#14.506
 16	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#14.506#14.976
@@ -126,7 +126,7 @@
 123	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	words@jgk1957m#@jgk1957m#52.405#52.516
 124	Вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	_	_	_	words@jgk1957m#@jgk1957m#52.516#52.629
 125	сюда	сюда	ADV	_	Degree=Pos	_	_	_	words@jgk1957m#@jgk1957m#52.629#52.876
-126	позвал	звать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@jgk1957m#@jgk1957m#52.876#53.529
+126	позвал	позвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@jgk1957m#@jgk1957m#52.876#53.529
 127	в	в	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#53.529#53.635
 128	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#53.635#54.121
 129	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#54.121#54.923
@@ -186,8 +186,8 @@
 183	?	?	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#106.828#106.855
 184	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#106.855#106.881
 185	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#106.881#106.917
-186	ааа	ааа	INTJ	_		_	_	_	words@jgk1957m#@jgk1957m#108.274#108.941
-187	фух	фух	INTJ	_		_	_	_	words@jgk1957m#@jgk1957m#108.941#109.539
+186	ааа	ааа	INTJ	_	_	_	_	_	words@jgk1957m#@jgk1957m#108.274#108.941
+187	фух	фух	INTJ	_	_	_	_	_	words@jgk1957m#@jgk1957m#108.941#109.539
 188	слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#109.539#109.821
 189	Богу	Бог	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#109.821#110.336
 190	ну	ну	PART	_	_	_	_	_	words@jgk1957m#@jgk1957m#118.745#119.075
@@ -340,7 +340,7 @@
 337	чужого	чужой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#165.477#166.078
 338	духовенства	духовенство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#166.078#166.899
 339	/	/	PUNCT	_	_	_	_	_	words@jgk1957m#@jgk1957m#166.899#167.293
-340	#смеётся#	#смеётся#	X	_		_	_	_	words@jgk1957m#@jgk1957m#167.293#167.51
+340	#смеётся#	#смеётся#	X	_	_	_	_	_	words@jgk1957m#@jgk1957m#167.293#167.51
 341	но	но	CCONJ	_	_	_	_	_	words@jgk1957m#@jgk1957m#167.51#167.817
 342	за	за	ADP	_	_	_	_	_	words@jgk1957m#@jgk1957m#167.817#167.95
 343	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	words@jgk1957m#@jgk1957m#167.95#168.589
@@ -528,7 +528,7 @@
 525	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#69.668#69.673
 526	когда	когда	SCONJ	_	_	_	_	_	words@enp1982m#@enp1982m#69.673#69.926
 527	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	words@enp1982m#@enp1982m#69.926#70.046
-528	услышал	слышать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@enp1982m#@enp1982m#70.046#70.413
+528	услышал	услышать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@enp1982m#@enp1982m#70.046#70.413
 529	антикр...	антиклерикал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	words@enp1982m#@enp1982m#70.413#70.823
 530	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#70.823#70.829
 531	антиклерикал	антиклерикал	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@enp1982m#@enp1982m#70.829#71.733
@@ -574,7 +574,7 @@
 571	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#80.877#80.885
 572	что	что	SCONJ	_	_	_	_	_	words@enp1982m#@enp1982m#80.885#81.073
 573	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	words@enp1982m#@enp1982m#81.073#81.2
-574	прочитал	читать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@enp1982m#@enp1982m#81.2#81.62
+574	прочитал	прочитать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@enp1982m#@enp1982m#81.2#81.62
 575	всего	весь	DET	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	words@enp1982m#@enp1982m#81.62#82.04
 576	Павлова	Павлов	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	words@enp1982m#@enp1982m#82.04#82.435
 577	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#82.435#82.446
@@ -901,7 +901,7 @@
 898	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#239.348#239.377
 899	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	words@enp1982m#@enp1982m#239.377#239.594
 900	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	_	_	_	words@enp1982m#@enp1982m#239.594#239.915
-901	дел...	делом	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	_	_	_	words@enp1982m#@enp1982m#239.915#240.166
+901	дел...	делом	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	_	_	_	words@enp1982m#@enp1982m#239.915#240.166
 902	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#240.166#240.18
 903	эээ	эээ	INTJ	_	_	_	_	_	words@enp1982m#@enp1982m#240.18#240.412
 904	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#240.412#240.433
@@ -1249,7 +1249,7 @@
 1246	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#333.487#333.515
 1247	которые	который	PRON	_	Case=Nom	_	_	_	words@enp1982m#@enp1982m#333.515#333.9
 1248	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@enp1982m#@enp1982m#333.9#334.113
-1249	украдены	красть	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	_	_	_	words@enp1982m#@enp1982m#334.113#334.622
+1249	украдены	украсть	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	_	_	_	words@enp1982m#@enp1982m#334.113#334.622
 1250	/	/	PUNCT	_	_	_	_	_	words@enp1982m#@enp1982m#334.622#334.636
 1251	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	words@enp1982m#@enp1982m#334.636#334.783
 1252	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@enp1982m#@enp1982m#334.783#334.975
