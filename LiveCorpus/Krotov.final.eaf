@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-26T13:30:11+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-26T13:41:43+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -1699,7 +1699,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="Lerostre" LINGUISTIC_TYPE_REF="gesture-meaning"
+    <TIER ANNOTATOR="Lerostre" LINGUISTIC_TYPE_REF="gesture_meaning"
         PARENT_REF="gestures@jgk1957m" PARTICIPANT="@jgk1957m" TIER_ID="gestMeaning@jgk1957m">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5071" ANNOTATION_REF="a5069">
@@ -2093,7 +2093,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="Lerostre" LINGUISTIC_TYPE_REF="gesture-meaning"
+    <TIER ANNOTATOR="Lerostre" LINGUISTIC_TYPE_REF="gesture_meaning"
         PARENT_REF="gestures@enp1982m" PARTICIPANT="@enp1982m" TIER_ID="gestMeaning@enp1982m">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2374" ANNOTATION_REF="a2348">
@@ -23789,7 +23789,7 @@
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="gestures" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
-        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture-meaning" TIME_ALIGNABLE="false"/>
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gesture_meaning" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="utterance" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
