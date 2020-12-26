@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-26T11:42:17+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-12-26T12:38:05+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -1557,7 +1557,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2314"
                 TIME_SLOT_REF1="ts283" TIME_SLOT_REF2="ts289">
-                <ANNOTATION_VALUE>Ладонь левой руки сжата в кулак, находится у подбородка, голова слегка наклонена на правй бок, взгляд направлен на собеседника исподолбья, два пальцы находятся прямо на подбородке, чешет бороду рукой</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ладонь левой руки сжата в кулак, находится у подбородка, голова слегка наклонена на правй бок, взгляд направлен на собеседника исподолбья, два пальцы находятся прямо на подбородке, чешет бороду левой рукой</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1659,7 +1659,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
                 TIME_SLOT_REF1="ts1035" TIME_SLOT_REF2="ts1049">
-                <ANNOTATION_VALUE>Приближает ладонь левой руки ко лицу, указательный и средний пальцы на подбородке, чешет бороду</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Приближает ладонь левой руки ко лицу, указательный и средний пальцы на подбородке, чешет бороду левой рукой</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1963,7 +1963,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2358"
                 TIME_SLOT_REF1="ts804" TIME_SLOT_REF2="ts810">
-                <ANNOTATION_VALUE>Приподнимает кисть прввой руки, кисть направлена в сторону собеседника, ладонь направлена вверх, к себе, сжимает руку в кулак</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Приподнимает кисть прввой руки, кисть направлена в сторону собеседника, ладонь направлена вверх, к себе, сжимает правую руку в кулак</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
